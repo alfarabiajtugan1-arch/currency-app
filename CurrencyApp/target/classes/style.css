@@ -1,0 +1,137 @@
+/* Общие настройки окна */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", "Arial";
+    -fx-background-color: linear-gradient(to bottom, #f5f7ff, #ffffff);
+}
+
+/* ---------- ШАПКА ---------- */
+
+.header-bar {
+    -fx-padding: 16 24 16 24;
+    -fx-background-color: linear-gradient(to right, #2563eb, #4f46e5);
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 12;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.header-user {
+    -fx-text-fill: rgba(255,255,255,0.85);
+    -fx-font-size: 14px;
+}
+
+/* ---------- КАРТОЧКИ (блоки) ---------- */
+
+.card {
+    -fx-padding: 16;
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(15,23,42,0.08), 12, 0, 0, 4);
+    -fx-spacing: 12;
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+/* Заголовки групп (если будут) */
+.app-title,
+.group-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+/* ---------- КНОПКИ ---------- */
+
+.button {
+    -fx-background-radius: 8;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 6 16 6 16;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #1e40af;
+}
+
+/* ---------- ПОЛЯ ВВОДА И СПИСКИ ---------- */
+
+.text-field,
+.date-picker,
+.combo-box-base {
+    -fx-background-radius: 6;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 6;
+    -fx-padding: 4 8 4 8;
+}
+
+.text-field:focused,
+.date-picker:focused,
+.combo-box-base:focused {
+    -fx-border-color: #2563eb;
+    -fx-effect: dropshadow(gaussian, rgba(37,99,235,0.25), 6, 0, 0, 0);
+}
+
+/* ---------- ТЕКСТ СООБЩЕНИЙ ---------- */
+
+.result-label {
+    -fx-text-fill: #374151;
+    -fx-font-size: 13px;
+}
+
+.error-label {
+    -fx-text-fill: #dc2626;
+    -fx-font-size: 13px;
+}
+
+/* ---------- ГРАФИКИ ---------- */
+
+.chart {
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 10;
+}
+
+.chart-vertical-grid-lines,
+.chart-horizontal-grid-lines {
+    -fx-stroke: #e5e7eb;
+}
+
+.chart-title {
+    -fx-text-fill: #111827;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.axis-label {
+    -fx-text-fill: #4b5563;
+    -fx-font-size: 12px;
+}
+
+.axis-tick-label {
+    -fx-text-fill: #6b7280;
+    -fx-font-size: 11px;
+}
+

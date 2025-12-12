@@ -1,0 +1,17 @@
+org\example\db\Database.class
+org\example\model\User.class
+org\example\data\ExchangeRateService.class
+org\example\ui\MainView$1.class
+org\example\model\Transaction.class
+org\example\db\UserDAO.class
+org\example\model\DemoAccount.class
+org\example\db\DBUtil.class
+org\example\ui\CandleStickChart.class
+org\example\ui\RegisterView.class
+org\example\MainApp.class
+org\example\ui\LoginView.class
+org\example\db\TransactionDAO.class
+org\example\db\DemoAccountDAO.class
+org\example\ui\CandleStickChart$Candle.class
+org\example\ui\CandleStickChart$OHLC.class
+org\example\ui\MainView.class

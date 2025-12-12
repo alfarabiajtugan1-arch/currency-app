@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-mvn javafx:run</actionName>
+            <displayName>mvn javafx:run</displayName>
+            <goals>
+                <goal>mvn</goal>
+                <goal>javafx:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-javafx:run</actionName>
+            <displayName>javafx:run</displayName>
+            <goals>
+                <goal>javafx:run</goal>
+            </goals>
+        </action>
+    </actions>
